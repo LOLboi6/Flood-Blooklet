@@ -10,7 +10,7 @@ console.log('%c Created by Sean v  :D', 'background: #222; color: yellow');
 
 
 // Making a for loop for flood
-for(botsToJoin = 0; botsToJoin < numberOfBots; botsToJoin++)
+for(botsToJoin = 12; botsToJoin < numberOfBots; botsToJoin++)
 
 fetch("https://api.blooket.com/api/firebase/join", {
   "headers": {
